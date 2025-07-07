@@ -1,4 +1,6 @@
-json{
+json
+
+{
   "name": "Android Development",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
