@@ -1,4 +1,4 @@
-bash#!/bin/bash
+#!/bin/bash
 
 # Set up Android development environment
 echo "Setting up Android development environment..."
