@@ -8,6 +8,9 @@ sdkmanager --update
 sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.1"
 sdkmanager "system-images;android-33;google_apis;x86_64"
 
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.jdk
+export PATH="$JAVA_HOME/bin:$PATH"
+
 # Create Android Virtual Device
 echo "no" | avdmanager create avd -n "Pixel_4_API_33" -k "system-images;android-33;google_apis;x86_64" -d "pixel_4"
 
